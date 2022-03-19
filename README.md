@@ -24,7 +24,7 @@ El presente proyecto muestra un listado de pelicula con su respectivo detalle. A
   - Resources: Contiene el assets del proyecto
   - Util: En esta parte estan las extensiones y un archivo para almacenar constantes.
   - Support: Contiene archivo info.plist
-  - 
+  
 ### Responsabilidad
 
 A continuacion se describen algunos elementos del proyecto
@@ -46,6 +46,3 @@ A continuacion se describen algunos elementos del proyecto
 
 * Principio de simple responsabilidad : Una clase debe tener una razón, y sólo una, para cambiar. Es decir, una clase solo debe tener una responsabilidad. Este principio nos ayuda a indentificar ciertos casos como los siguientes: La cantidad de metodos publicos es demasiada. La clase en cuestion es muy complicada de testear. La cantidad de imports y/o la cantidad de lineas de codigo que tiene la clase esta desbordando. Este principio nos ayudara a corregir esta parte de nuestro codigo y mientras tengamos un proyecto vivo (que este sometido a cambios) siempre es posible en algun momento incurrir en alguna practica que genere un caso que pueda alterar el buen funcionamiento de nuestro proyecto.
 * Codigo Limpio : En mi opinion deberia reflejarse lo siguiente. Al momento de diseñar los casos de prueba permite salvaguardar la calidad de codigo implementado. Tambien, permite refinar la cantidad de codigo escrito. Es facil de leer y entender lo que permite un desarrollo más rápido y escalable de forma segura. Finalmente, para que todo esto sea exitoso se debe contar con el tiempo necesario para poder ejecutar todo este proceso que proviene de una buena practica. La parte o area tecnica debe ser responsable de velar por este cumplimiento de manera natural y estando plenamente convencido de sus beneficios a corto y largo plazo.
-
-
-# movieflix-sb
